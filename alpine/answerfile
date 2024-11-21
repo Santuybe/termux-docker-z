@@ -13,7 +13,7 @@ iface eth0 inet static
 DNSOPTS="1.1.1.1"
 TIMEZONEOPTS="-z UTC"
 PROXYOPTS="none"
-APKREPOSOPTS="http://dl-cdn.alpinelinux.org/alpine/latest-stable/main http://dl-cdn.alpinelinux.org/alpine/latest-stable/community"
+APKREPOSOPTS="http://dl-3.alpinelinux.org/alpine/latest-stable/main http://dl-3.alpinelinux.org/alpine/latest-stable/community"
 SSHDOPTS="-c openssh"
 NTPOPTS="-c busybox"
 DISKOPTS="-v -m sys -s 0 /dev/sda"
